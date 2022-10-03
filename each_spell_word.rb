@@ -4,3 +4,10 @@
 
 p "Enter a word for me to spell:"
 
+word = gets.chomp
+letters = word.split("")
+
+letters.each do |letter|
+  p letter
+end
+
